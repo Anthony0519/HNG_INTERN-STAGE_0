@@ -9,7 +9,7 @@
     ],
     "headers": [
       {
-        "source": "(.*)",
+        "source": "/public_api(.*)",
         "headers": [
           {
             "key": "Access-Control-Allow-Origin",
