@@ -1,6 +1,6 @@
 
 {
-    "name": "public_information",
+    "name": "public-information",
     "builds": [
       {
         "src": "server.js",
