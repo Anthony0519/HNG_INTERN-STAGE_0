@@ -12,7 +12,7 @@ This is a simple public API that returns basic information such as email, timest
 
 ## Installation and Setup
 1. Clone the repository:
-  - git clone https://github.com/Anthony0519/PUBLIC_API.git
+  - git clone https://github.com/Anthony0519/HNG_INTERN-STAGE_0.git
 2. Install dependencies:
   - npm install
 3. Run the server:
