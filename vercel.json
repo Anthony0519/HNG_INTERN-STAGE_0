@@ -1,6 +1,6 @@
 
 {
-    "name": "public-information",
+    "name": "hng-project-stage_0",
     "builds": [
       {
         "src": "server.js",
