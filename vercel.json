@@ -1,6 +1,6 @@
 
 {
-    "name": "hng-project-stage_0",
+    "name": "hng-intern-stage_0",
     "builds": [
       {
         "src": "server.js",
