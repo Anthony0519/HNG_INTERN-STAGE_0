@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cors({origin: "*"}))
 
-app.use("/public_api", route);
+app.use(route);
 
 
 app.listen(PORT,()=>{
