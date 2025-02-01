@@ -31,11 +31,15 @@ exports.Informations = async (req, res) => {
         timeStamp.setHours(timeStamp.getHours() + 1)
         const publicInfo = info.map((info) => ({
             email: info.email,
-            current_datetime: timeStamp,
-            github_url: info.gitHub
+            timeStamp: timeStamp,
+            gitHub: info.gitHub
         }))
 
-        res.status(200).json(publicInfo)
+        res.status(200).json({
+            email: publicInfo.email,
+            current_datetime: publicInfo.timeStamp,
+            github_url: publicInfo.gitHub
+        })
     } catch (error) {
         res.status(500).json({
             error: error.message
