@@ -35,9 +35,7 @@ exports.Informations = async (req, res) => {
             github_url: info.gitHub
         }))
 
-        res.status(200).json({
-            publicInfo
-        })
+        res.status(200).json(publicInfo)
     } catch (error) {
         res.status(500).json({
             error: error.message
