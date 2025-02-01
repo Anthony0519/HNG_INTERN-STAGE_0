@@ -7,7 +7,6 @@ This is a simple public API that returns basic information such as email, timest
 - JavaScript
 - CORS
 - dotenv
-- mongoose
 - nodemon
 
 ## Installation and Setup
@@ -19,3 +18,6 @@ This is a simple public API that returns basic information such as email, timest
   - npm run dev
 4. Environmet variables:
   - create a .env file and setup the content on .env.example with your detail on the file
+
+## HNG_backlink
+  - https://hng.tech/hire/nodejs-developers
